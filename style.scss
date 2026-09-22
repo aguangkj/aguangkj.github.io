@@ -285,5 +285,27 @@ footer {
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+.tool-entry {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.tool-entry a {
+  display: inline-block;
+  padding: 12px 30px;
+  background: linear-gradient(135deg, #c9a84c, #8b7355);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(201, 168, 76, 0.3);
+  transition: all 0.3s ease;
+}
+
+.tool-entry a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(201, 168, 76, 0.5);
+}
 @import "highlights";
 @import "svg-icons";
